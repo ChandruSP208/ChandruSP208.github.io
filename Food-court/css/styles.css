@@ -10,12 +10,14 @@ body{
 	border-radius: 0;
 	border: 0;
 }
-
+#navbar-brand{
+	padding-top: 25px;
+}
 #logo-img{ /*logo*/
 	background:url('../images/logo1.png') ;
 	width: 150px;
 	height: 150px;
-	margin: 10px 10px 10px 0px;
+	margin: 10px 15px 10px 0px;
 
 }
 .navbar-brand h1{ /*h1*/
@@ -37,7 +39,33 @@ line-height: 0.75;
 	color: #000;
 font-size: 0.7em;
 margin-top: 15px;
+text-transform: uppercase;
 }
 .navbar-brand p span{ /*span*/
 	vertical-align: middle;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: black;
+	text-align: center;
+}
+#nav-list a:hover{
+	background-color: #088A29;
+}
+#nav-list a span{
+	font-size: 1.5em;
+}
+#phone{
+ margin-top: 5px;
+}
+#phone a{
+	text-align: right;
+	padding-bottom: 0px;
+}
+#phone div{
+	color: #2DA107;
+	text-align: right;
+	padding-right: 15px;
 }
