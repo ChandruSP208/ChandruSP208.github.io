@@ -9,12 +9,14 @@ body{
 	border-radius: 0;
 	border: 0;
 }
-
+#navbar-brand{
+	padding-top: 25px;
+}
 #logo-img{ /*logo*/
 	background:url('../images/logo1.png') ;
 	width: 150px;
 	height: 150px;
-	margin: 10px 10px 10px 0px;
+	margin: 10px 15px 10px 0px;
 
 }
 .navbar-brand h1{ /*h1*/
@@ -36,6 +38,7 @@ line-height: 0.75;
 	color: #000;
 font-size: 0.7em;
 margin-top: 15px;
+text-transform: uppercase;
 }
 .navbar-brand p span{ /*span*/
 	vertical-align: middle;
@@ -65,9 +68,12 @@ margin-top: 15px;
 	text-align: right;
 	padding-right: 15px;
 }
+<<<<<<< HEAD
 .navbar-header button.navbar-toggle,.navbar-header .icon-bar{
 	border: 1px solid orangered;
 }
 .navbar-header button.navbar-toggle{
 	clear-both;
 }
+=======
+>>>>>>> 5dc9fb1c84254d8289aa5bc1979aaf5783b62ae3
