@@ -1,0 +1,79 @@
+body{
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: #FF8000;
+	font-family: 'oxygen',sans-serif;
+}
+#header-nav{
+	background-color: #EFFBEF;
+	border-radius: 0;
+	border: 0;
+}
+#navbar-brand{
+	padding-top: 25px;
+}
+#logo-img{ /*logo*/
+	background:url('../images/logo1.png') ;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0px;
+
+}
+.navbar-brand h1{ /*h1*/
+	color: #088A29;
+	font-family: 'lora',sans-serif;
+	padding-top: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1.5em;
+font-shadow: 1px 1px 1px #222;
+line-height: 0.75;
+}
+.navbar-brand a:hover,.navbar-brand a:focus{ /*h1 not hover underline*/
+	text-decoration: none;
+}
+.navbar-brand p{ /*award*/
+	color: #000;
+font-size: 0.7em;
+margin-top: 15px;
+text-transform: uppercase;
+}
+.navbar-brand p span{ /*span*/
+	vertical-align: middle;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: black;
+	text-align: center;
+}
+#nav-list a:hover{
+	background-color: #088A29;
+}
+#nav-list a span{
+	font-size: 1.5em;
+}
+#phone{
+ margin-top: 5px;
+}
+#phone a{
+	text-align: right;
+	padding-bottom: 0px;
+}
+#phone div{
+	color: #2DA107;
+	text-align: right;
+	padding-right: 15px;
+}
+<<<<<<< HEAD
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar{
+	border: 1px solid orangered;
+}
+.navbar-header button.navbar-toggle{
+	clear-both;
+}
+=======
+>>>>>>> 5dc9fb1c84254d8289aa5bc1979aaf5783b62ae3
