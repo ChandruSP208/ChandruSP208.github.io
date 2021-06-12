@@ -68,12 +68,47 @@ text-transform: uppercase;
 	text-align: right;
 	padding-right: 15px;
 }
-<<<<<<< HEAD
-.navbar-header button.navbar-toggle,.navbar-header .icon-bar{
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
 	border: 1px solid orangered;
 }
 .navbar-header button.navbar-toggle{
-	clear-both;
+	clear: both;
+	margin-top: -30px;
 }
-=======
->>>>>>> 5dc9fb1c84254d8289aa5bc1979aaf5783b62ae3
+@media (min-width: 1200px){
+
+}
+@media (min-width: 992px) and (max-width: 1199px){
+#logo-img{ /*logo*/
+	background:url('../images/log.png') ;
+	width: 104px;
+	height: 100px;
+	margin: 5px 5px 5px 0px;
+}
+@media (min-width: 768px) and (max-width: 991px){
+	
+}
+@media (max-width: 767px){
+.navbar-brand{
+	padding-top: 10px;
+	height: 80px;
+}
+.navbar-brand h1{
+padding-top: 10px;
+	font-size: 5vw;
+}
+.navbar-brand p{
+	text-transform: uppercase;
+	font-size: .6em;
+	margin-top: 12px;
+}
+.navbar-brand p img{
+	height: 20px;
+}
+#collapsable-nav a{
+	font-size: 1.2em;
+}
+#collapsable-nav a span{
+	font-size: 1em;
+}
+}
